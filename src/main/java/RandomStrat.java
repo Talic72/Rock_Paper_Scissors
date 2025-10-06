@@ -1,5 +1,6 @@
 import java.util.Random;
-public class Random implements StrategyMain {
+
+public class RandomStrat implements StrategyMain {
 
     private Random rand = new Random();
 
@@ -13,7 +14,7 @@ public class Random implements StrategyMain {
         {
             return "P";
         }
-        else if (choice == 2)
+        else
         {
             return "S";
         }

@@ -1,4 +1,4 @@
-package PACKAGE_NAME;
 
-public class StrategyMain {
+public interface StrategyMain {
+    String getMove(String PlayerChoice);
 }
